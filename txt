@@ -1,0 +1,65 @@
+<h1>My Portfolio</h1>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="./images/pic02.jpg"/>
+    <h1>Ipsum feugiat et dolor</h1>
+    <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+    <span>Find out more</span>
+  </div>
+  <div class="gallery-item">
+    <img src="./images/pic02.jpg"/>
+    <h1>Ipsum feugiat et dolor</h1>
+    <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./images/pic02.jpg"/>
+    <h1>Ipsum feugiat et dolor</h1>
+    <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./images/pic02.jpg"/>
+    <h1>Ipsum feugiat et dolor</h1>
+    <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./images/pic02.jpg"/>
+    <h1>Ipsum feugiat et dolor</h1>
+    <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="./images/pic02.jpg"/>
+    <h1>Ipsum feugiat et dolor</h1>
+    <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+  </div>
+</div>
+<!-- css -->
+.gallery {
+  background-color: #f7f7f7;
+  display: grid;
+  grid-template-columns: 22% 22% 22%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  gap: 35px;
+}
+.gallery-item {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.gallery-item h1 {
+  font-size: 21.6px;
+  color: #252122;
+  font-weight: 700;
+  margin: 40px 10px 20px 10px;
+}
+.gallery-item p {
+  margin: 0px 10px 0px 10px;
+}
+.gallery-item span {
+  display: inline;
+  background: black;
+  width: 60%;
+  padding: 9px 50px;
+  color: white;
+}
